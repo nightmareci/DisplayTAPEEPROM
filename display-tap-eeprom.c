@@ -63,12 +63,12 @@ enum Medal {
 };
 
 struct AwardedMedals {
-	enum Medal CO : 2;
-	enum Medal RO : 2;
-	enum Medal RE : 2;
-	enum Medal SK : 2;
-	enum Medal ST : 2;
-	enum Medal AC : 2;
+	enum Medal CO;
+	enum Medal RO;
+	enum Medal RE;
+	enum Medal SK;
+	enum Medal ST;
+	enum Medal AC;
 };
 
 #define BIG_ENDIAN_UINT16(bytes) (  \
